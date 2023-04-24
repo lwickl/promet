@@ -1,0 +1,28 @@
+.header {
+  background-color: var(--light-gray-color);
+  border-bottom: 1px solid var(--silver-color);
+  padding: 25px 0;
+
+  &__content {
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.contact {
+  gap: 15px;
+
+  &__link {
+    color: var(--accent-color);
+    display: flex;
+    align-items: center;
+    transition: .3s color ease-in-out, .3s fill ease-in-out;
+  }
+
+  &__icon {
+    fill: currentColor;
+    margin-right: 7px;
+    height: 22px;
+    width: 22px;
+  }
+}
